@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item {
+  height: 460px;
+  position: relative;
+}
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: blur(3px);
+}
+.carousel-description {
+  color: #fff;
+  line-height: 1.5;
+  top: 20%;
+}
+.carousel-item p {
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.carousel-item h1 {
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+.overview ul {
+  background-color: #ced4da;
+  padding: 3.5rem 0;
+  padding-right: 0;
+  text-align: center;
+}
+.carousel-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+.carousel-list a:link,
+.carousel-list a:visited {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: none;
+}
+.carousel-icon {
+  fill: #555;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+/* STYLING THE PACKAGES SECTION  */
+.section {
+  margin-top: 6rem;
+}
+.text-center {
+  margin-bottom: 2.5rem;
+}
+#packages-img {
+  width: 200px;
+}
+#packages h1 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.card {
+  padding: 0;
+}
+.card-body {
+  text-align: center;
+}
+.card-body h3 {
+  font-size: 1.4rem;
+  margin: 1rem 0 0.5rem;
+}
+.card-body span {
+  color: #444;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.card-text {
+  color: #444;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+.container-card {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.6rem;
+}
+.carousel-card {
+  width: 20rem;
+}
+#FAQ h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
